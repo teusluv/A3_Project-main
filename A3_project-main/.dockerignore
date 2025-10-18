@@ -1,0 +1,56 @@
+# Arquivos do Git
+.git/
+.gitignore
+.gitattributes
+
+# Arquivos do Maven gerados
+target/
+!target/*.jar
+
+# Arquivos temporários do Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos e pastas locais de desenvolvimento
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Arquivos de configuração local
+.env
+
+# Dados e arquivos temporários
+data/
+tmp/
+temp/
+
+# Relatórios e documentação
+doc/
+docs/
+README.md
+LICENSE
+
+# Arquivos Docker que não precisam ser copiados
+Dockerfile
+docker-compose.yaml
+.dockerignore
+
+# Outros arquivos desnecessários no container
+*.md
+*.txt
+*.bat
+*.cmd
+*.sh
+!mvnw
+
+# Arquivos de teste
+src/test/
